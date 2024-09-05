@@ -1,0 +1,1133 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/CriketFieldPositions#"
+     xml:base="http://www.semanticweb.org/ontologies/CriketFieldPositions"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions">
+        <rdfs:label>Cricket Field Positions Ontology</rdfs:label>
+        <dc:creator>Robert Stevens</dc:creator>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#AnnotationProperty1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#AnnotationProperty2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">counterpart</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has angle</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has angle</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has relative position</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has distance</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty5 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has modifier</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silly</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class10 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class10">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class11 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class11">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class12 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class12">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class13 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class13">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class12"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class14 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class14">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Square</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class12"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class15 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class15">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class12"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class16 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class16">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Backward</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class12"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class17 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class17">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Forward</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class12"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class18 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class18">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Off Side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fielding Position</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class12"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Distance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class20 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class20">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Short Leg</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class16"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class6"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class21 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class21">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silly Point</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class9"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class14"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class18"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class22 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class22">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Square Leg</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class14"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class6"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class4"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <AnnotationProperty2>Point</AnnotationProperty2>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class23 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class23">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fine Leg</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class13"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class6"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class4"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class24 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class24">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Backwards Square Leg</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class16"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class6"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class10"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class25 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class25">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gully</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class17"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class18"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class4"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class26 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class26">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leg Gully</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class17"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class6"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class4"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class27 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class27">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deep Cover</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class15"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class18"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class3"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class28 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class28">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leg Side Field Position</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class6"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class29 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class29">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extra Cover</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class15"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class18"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class3"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deep</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class30 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class30">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long Off</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class17"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class18"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class11"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class31 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class31">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leg Slip</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class16"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class6"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class4"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class32">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slip</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class16"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class18"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class4"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class33 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class33">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silly Mid-Off</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class17"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class18"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class34 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class34">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silly Mid-On</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class15"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class6"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class35 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class35">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Backward Point</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class16"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class18"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class10"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class36 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class36">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mid Off</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class17"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class18"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class10"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class37 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class37">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mid On</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class15"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class6"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class10"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <AnnotationProperty2>Mid off</AnnotationProperty2>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class38 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class38">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Third Man</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class16"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class18"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class11"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class39 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class39">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deep Point</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class14"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class18"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class3"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Short</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class40 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class40">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cow Corner</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class15"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class6"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class3"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class41 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class41">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deep Backwards point</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class16"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class18"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class3"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class42 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class42">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deep Fine Leg</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class13"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class6"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class3"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class43 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class43">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deep Square Leg</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class14"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class6"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class3"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class44 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class44">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deep Mid wicket</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class17"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class6"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class3"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class45 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class45">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long On</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class17"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class6"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class11"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <AnnotationProperty2>Long Off</AnnotationProperty2>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class46 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class46">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Off Side Field Position</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class18"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class47 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class47">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deep Extra Cover</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class15"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class18"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class3"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class48 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class48">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class49 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class49">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class48"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relative Position</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class50 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class50">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wider</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class48"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leg Side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class5"/>
+        <AnnotationProperty1>On Side</AnnotationProperty1>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cover</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class15"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class18"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class11"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mid-wicket</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class17"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class6"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class10"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CriketFieldPositions#Class9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class9">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Point</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class19"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty2"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class14"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty3"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class18"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#ObjectProperty4"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/CriketFieldPositions#Class4"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <AnnotationProperty2>Square Leg</AnnotationProperty2>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1787) http://owlapi.sourceforge.net -->
+
